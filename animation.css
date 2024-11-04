@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fffbfe;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#moving-button {
+    position: absolute;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#moving-button:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    font-size: 2em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space between the text and button */
+    margin-top: 50px;
+}
+
+#cat {
+    margin-top: 100px;
+}
+
+.hidden {
+    display: none; /* Hide the element */
+}
